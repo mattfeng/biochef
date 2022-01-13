@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/biochef",
   siteMetadata: {
     title: `biochef`,
-    description: `bioinformatics manipulation tool`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `Bioinformatics manipulation tool.`,
+    author: `@mattfeng`,
+    siteUrl: `https://mattfeng.tech/biochef`,
   },
   plugins: [
     `gatsby-plugin-sass`,
