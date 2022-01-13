@@ -1,0 +1,15 @@
+@import "fonts.scss";
+
+.container {
+    table {
+        width: 100%;
+        font-family: $mono;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        border: 1px solid lightgray;
+        padding: 3px;
+        text-align: center;
+    }
+}

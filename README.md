@@ -1,3 +1,3 @@
 # biochef
 
-_bioinformatics manipulation tool._
+_Bioinformatics manipulation tool._
