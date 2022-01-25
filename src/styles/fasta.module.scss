@@ -1,0 +1,11 @@
+@import "fonts.scss";
+
+.output {
+    h3, p {
+        font-family: $mono;
+        margin: 0;
+    }
+    p {
+        word-break: break-all;
+    }
+}

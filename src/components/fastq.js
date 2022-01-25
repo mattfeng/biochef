@@ -1,4 +1,5 @@
 import React from "react"
+import Tool from "./tool"
 
 import * as styles from "../styles/fastq.module.scss"
 
@@ -48,10 +49,12 @@ const FASTQLevels = () => {
 
   const Qscores = makeQscores()
   return (
-    <div className={styles.container}>
-      <h1>FASTQ Quality Table</h1>
-      {Qscores}
-    </div>
+    <Tool>
+      <div className={styles.container}>
+        <h1>FASTQ Quality Table</h1>
+        {Qscores}
+      </div>
+    </Tool>
   )
 }
 
